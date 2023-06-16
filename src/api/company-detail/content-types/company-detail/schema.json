@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_details",
+  "info": {
+    "singularName": "company-detail",
+    "pluralName": "company-details",
+    "displayName": "Company Detail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "GrowMark"
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "cellNumber": {
+      "type": "string",
+      "required": true,
+      "minLength": 10,
+      "maxLength": 15
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    }
+  }
+}
