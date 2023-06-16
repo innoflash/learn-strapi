@@ -4,7 +4,8 @@
   "info": {
     "singularName": "hero-banner",
     "pluralName": "hero-banners",
-    "displayName": "Hero Banner"
+    "displayName": "Hero Banner",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,13 +16,13 @@
       "type": "string",
       "required": true
     },
-    "image": {
-      "allowedTypes": [
-        "images"
-      ],
+    "banner": {
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
