@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_team_card_clients",
+  "info": {
+    "displayName": "Client",
+    "icon": "collapse"
+  },
+  "options": {},
+  "attributes": {
+    "testimony": {
+      "type": "text",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "profession": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

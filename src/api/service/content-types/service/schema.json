@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card-item.card-item",
+      "min": 1
+    },
+    "Clients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team-card.client"
+    }
+  }
+}
