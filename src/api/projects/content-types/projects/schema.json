@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "projectss",
+  "info": {
+    "singularName": "projects",
+    "pluralName": "projectss",
+    "displayName": "Projects"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card-item.card-item",
+      "min": 1
+    }
+  }
+}
