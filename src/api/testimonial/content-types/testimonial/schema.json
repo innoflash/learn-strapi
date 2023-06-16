@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "services",
+  "collectionName": "testimonials",
   "info": {
-    "singularName": "service",
-    "pluralName": "services",
-    "displayName": "Service",
-    "description": ""
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "Testimonial"
   },
   "options": {
     "draftAndPublish": true
@@ -14,13 +13,12 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "maxLength": 100
+      "required": true
     },
-    "services": {
+    "testimonies": {
       "type": "component",
       "repeatable": true,
-      "component": "card-item.card-item",
+      "component": "team-card.client",
       "min": 1
     }
   }
